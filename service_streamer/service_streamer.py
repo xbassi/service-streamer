@@ -17,7 +17,7 @@ from .managed_model import ManagedModel
 
 TIMEOUT = 1
 TIME_SLEEP = 0.001
-WORKER_TIMEOUT = 30
+WORKER_TIMEOUT = 60
 logger = logging.getLogger(__name__)
 logger.setLevel("INFO")
 
